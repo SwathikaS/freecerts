@@ -20,8 +20,7 @@ FreeCerts is a clean, responsive website built to help students find 100% free c
 
 ## 🚀 Live Website
 
-🔗 [https://yourusername.github.io/freecerts](https://yourusername.github.io/freecerts)  
-(Replace with your actual URL after publishing)
+🔗 [[https://yourusername.github.io/freecerts](https://swathikas.github.io/freecerts/)]
 
 ## 🛠️ How to Contribute
 
