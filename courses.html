@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Courses | FreeCerts</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="filter.js"></script>
+</head>
+<body>
+  <header>
+    <h1>FreeCerts</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="suggest.html">Suggest</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Explore Free Certification Courses</h2>
+      <input type="text" id="searchInput" placeholder="Search by course name..." />
+      <div class="filter-buttons">
+        <button onclick="filterCourses('all')">All</button>
+        <button onclick="filterCourses('Programming')">Programming</button>
+        <button onclick="filterCourses('Business')">Business</button>
+        <button onclick="filterCourses('Soft Skills')">Soft Skills</button>
+      </div>
+    </section>
+
+    <section id="courseList" class="course-list">
+      <!-- Cards for each course -->
+      <div class="course-card Programming">
+        <h3>MATLAB Onramp</h3>
+        <a href="https://matlabacademy.mathworks.com/" target="_blank" class="btn">Visit</a>
+      </div>
+      <div class="course-card Programming">
+        <h3>CS50 - Harvard</h3>
+        <a href="https://cs50.harvard.edu/x/" target="_blank" class="btn">Visit</a>
+      </div>
+      <div class="course-card Programming">
+        <h3>Python for Beginners</h3>
+        <a href="https://www.udemy.com/course/pythonforbeginners/" target="_blank" class="btn">Visit</a>
+      </div>
+      <div class="course-card Soft Skills">
+        <h3>LinkedIn Learning</h3>
+        <a href="https://www.linkedin.com/learning/" target="_blank" class="btn">Visit</a>
+      </div>
+      <div class="course-card Soft Skills">
+        <h3>The Forage</h3>
+        <a href="https://www.theforage.com/" target="_blank" class="btn">Visit</a>
+      </div>
+      <div class="course-card Business">
+        <h3>Google Career Certificates</h3>
+        <a href="https://grow.google/certificates/" target="_blank" class="btn">Visit</a>
+      </div>
+      <div class="course-card Business">
+        <h3>Alison Business Courses</h3>
+        <a href="https://alison.com/courses/business" target="_blank" class="btn">Visit</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FreeCerts. All rights reserved.</p>
+  </footer>
+</body>
+</html>
