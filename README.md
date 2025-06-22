@@ -29,5 +29,5 @@ Fork the repository, make your changes, and open a pull request!
 
 ## 📧 Contact
 
-Built by [Your Name]  
+Built by Swathika S  
 📬 Email: swathikas1007@gmail.com
